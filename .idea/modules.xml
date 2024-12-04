@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AlgorithmsAndDataStructures.iml" filepath="$PROJECT_DIR$/.idea/AlgorithmsAndDataStructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickFind/QuickFind.iml" filepath="$PROJECT_DIR$/QuickFind/QuickFind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QuickUnion/QuickUnion.iml" filepath="$PROJECT_DIR$/QuickUnion/QuickUnion.iml" />
     </modules>
   </component>
 </project>
