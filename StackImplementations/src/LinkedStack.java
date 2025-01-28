@@ -1,4 +1,6 @@
-public class LinkedStack<T> {
+import java.util.Iterator;
+
+public class LinkedStack<T> implements Iterable<T>{
     private Node<T> top;
     private int size;
 
@@ -20,5 +22,25 @@ public class LinkedStack<T> {
         top = top.next();
         size--;
         return value;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new LinkedStackIterator();
+    }
+
+    private class LinkedStackIterator implements Iterator<T> {
+        private Node<T> current = top;
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public T next() {
+            T item = current.data();
+            current = current.next();
+            return item;
+        }
     }
 }

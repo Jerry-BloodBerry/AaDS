@@ -1,6 +1,7 @@
 import java.util.Arrays;
+import java.util.Iterator;
 
-public class ArrayStack<T> {
+public class ArrayStack<T> implements Iterable<T> {
     private T[] array;
     private int size;
 
@@ -26,5 +27,23 @@ public class ArrayStack<T> {
             array = Arrays.copyOf(array, array.length / 2);
         }
         return array[--size];
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new ReverseArrayIterator();
+    }
+
+    private class ReverseArrayIterator implements Iterator<T> {
+        private int current = size;
+        @Override
+        public boolean hasNext() {
+            return current > 0;
+        }
+
+        @Override
+        public T next() {
+            return array[--current];
+        }
     }
 }

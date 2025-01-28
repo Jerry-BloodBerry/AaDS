@@ -10,6 +10,9 @@ public class Main {
         stack.push(6);
         stack.push(7);
         stack.push(8);
+        for (int num : stack) {
+            System.out.println(num);
+        }
         System.out.println(stack.pop());
         System.out.println(stack.pop());
         System.out.println(stack.pop());
@@ -24,7 +27,9 @@ public class Main {
         linkedStack.push("d");
         linkedStack.push("e");
         linkedStack.push("f");
-
+        for (String s : linkedStack) {
+            System.out.println(s);
+        }
         System.out.println(linkedStack.pop());
         System.out.println(linkedStack.pop());
         System.out.println(linkedStack.pop());
