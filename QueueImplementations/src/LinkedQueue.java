@@ -1,4 +1,6 @@
-public class LinkedQueue<T> {
+import java.util.Iterator;
+
+public class LinkedQueue<T> implements Iterable<T> {
     private Node<T> head, tail;
 
     public LinkedQueue() {
@@ -29,5 +31,26 @@ public class LinkedQueue<T> {
 
     private boolean isEmpty() {
         return head == null;
+    }
+
+    @Override
+    public Iterator<T> iterator() {
+        return new LinkedIterator();
+    }
+
+    private class LinkedIterator implements Iterator<T> {
+        private Node<T> current = head;
+
+        @Override
+        public boolean hasNext() {
+            return current != null;
+        }
+
+        @Override
+        public T next() {
+            T item = current.value();
+            current = current.next();
+            return item;
+        }
     }
 }
