@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/AlgorithmsAndDataStructures.iml" filepath="$PROJECT_DIR$/.idea/AlgorithmsAndDataStructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/BagImplementations/BagImplementations.iml" filepath="$PROJECT_DIR$/BagImplementations/BagImplementations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DequesAndRandomizedQueues/DequesAndRandomizedQueues.iml" filepath="$PROJECT_DIR$/DequesAndRandomizedQueues/DequesAndRandomizedQueues.iml" />
       <module fileurl="file://$PROJECT_DIR$/Percolation/Percolation.iml" filepath="$PROJECT_DIR$/Percolation/Percolation.iml" />
       <module fileurl="file://$PROJECT_DIR$/QueueImplementations/QueueImplementations.iml" filepath="$PROJECT_DIR$/QueueImplementations/QueueImplementations.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickFind/QuickFind.iml" filepath="$PROJECT_DIR$/QuickFind/QuickFind.iml" />
