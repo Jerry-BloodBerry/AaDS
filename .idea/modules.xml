@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/QueueImplementations/QueueImplementations.iml" filepath="$PROJECT_DIR$/QueueImplementations/QueueImplementations.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickFind/QuickFind.iml" filepath="$PROJECT_DIR$/QuickFind/QuickFind.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuickUnion/QuickUnion.iml" filepath="$PROJECT_DIR$/QuickUnion/QuickUnion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" filepath="$PROJECT_DIR$/SortingAlgorithms/SortingAlgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/StackImplementations/StackImplementations.iml" filepath="$PROJECT_DIR$/StackImplementations/StackImplementations.iml" />
       <module fileurl="file://$PROJECT_DIR$/WeightedQuickUnion/WeightedQuickUnion.iml" filepath="$PROJECT_DIR$/WeightedQuickUnion/WeightedQuickUnion.iml" />
     </modules>
